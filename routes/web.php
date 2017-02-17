@@ -14,4 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/trash/{name}','iamno1@myfun');
+Route::get('/trash','iamno1@myfun');
+Route::post('/trash','iamno1@add');

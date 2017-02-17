@@ -7,7 +7,6 @@ use Illuminate\Http\Request;
 class Mulcontrol extends Controller
 {
     //
-    class Mulcontrol extends Controller{
     public function mulfun(){
         return view('mul');
     }
@@ -15,5 +14,5 @@ class Mulcontrol extends Controller
         $prod=$req->num1*$req->num2;
         return view('prod',['prodval'=>$prod]);
     }
-}
+
 }

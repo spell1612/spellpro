@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class iamno1 extends Controller
 {
     public function myfun(){
-        return view("razr");       
+        return view('razr');       
     }
     public function add(Request $request){
         $sum=$request->num1+$request->num2;

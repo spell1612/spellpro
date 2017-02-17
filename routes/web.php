@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 Route::get('/trash','iamno1@myfun');
 Route::post('/trash','iamno1@add');
+Route::get('/mul','Mulcontrol@mulfun');
+Route::post('/prod','Mulcontrol@Multiply');
